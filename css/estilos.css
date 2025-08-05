@@ -331,22 +331,20 @@ footer {
     }
 }
 @media (max-width: 600px) {
-    .carrusel {
-        height: 180px;
-    }
-    .carrusel img {
-        height: 180px;
-    }
-    .bienvenida h1 {
-        font-size: 2em;
-    }
-    .ventajas div {
-        padding: 1em;
-        max-width: 95vw;
-    }
+   .carrusel {
+    width: 95%;
+    height: auto;
+}
+.ventajas {
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
     nav ul {
         gap: 0.9em;
     }
     .galeria { grid-template-columns: 1fr; padding: 1em 0.4em; }
     .filtros { flex-direction: column; gap: 0.7em; }
 }
+
